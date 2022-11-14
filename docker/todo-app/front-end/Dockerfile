@@ -8,4 +8,6 @@ COPY node_modules.tar.gz .
 
 COPY . .
 
+RUN npm start
+
 CMD "npm", "start"
