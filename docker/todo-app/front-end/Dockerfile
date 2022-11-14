@@ -10,4 +10,4 @@ COPY . .
 
 RUN npm start
 
-CMD "npm", "start"
+CMD ["npm", "start"]

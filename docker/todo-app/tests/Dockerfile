@@ -10,4 +10,4 @@ COPY . .
 
 RUN npm test
 
-CMD "npm", "test"
+CMD ["npm", "test"]
