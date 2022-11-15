@@ -1,11 +1,11 @@
-FROM node:14-alpine
+FROM node:14
+
+EXPOSE 3000
 
 WORKDIR /app
 
-COPY node_modules.tar.gz .
+ADD ./node_modules.tar.gz .
 
 COPY . .
 
-RUN npm start
-
-CMD ["npm", "start"]
+CMD ["npm start"]

@@ -1,1 +1,1 @@
-docker build --tag todotests ./todo-app/tests
+docker build -t todotests ./todo-app/tests
